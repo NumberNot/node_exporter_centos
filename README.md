@@ -25,7 +25,7 @@ nano /etc/systemd/system/node_exporter.service
   [Install]
   WantedBy=multi-user.target
 ```
-
+Again bash
 ```bash
 systemctl daemon-reload
 systemctl start node_exporter
